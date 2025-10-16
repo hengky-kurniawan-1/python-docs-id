@@ -5,16 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Fried Rice, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-13 14:19+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: Fried Rice, 2025\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Allocating Objects on the Heap"
-msgstr "Mengalokasikan objek kedalam struktur data (heap)"
+msgstr "Mengalokasikan Objek pada Heap"
 
 msgid ""
 "Initialize a newly allocated object *op* with its type and initial "
@@ -63,8 +63,8 @@ msgid ""
 "This does everything :c:func:`PyObject_Init` does, and also initializes the "
 "length information for a variable-size object."
 msgstr ""
-"Ini melakukan segala hal yang dilakukan :c:func:`PyObject_Init`, dan juga "
-"menginisialiasi rentang informasi untuk objek variabel yang terikat ukuran."
+"Ini melakukan segalanya :c:func:`PyObject_Init`, dan juga menginisialiasi "
+"panjang informasi pada sebuah ukuran object variabel."
 
 msgid ""
 "This function only initializes some of the object's memory.  It does not "
@@ -99,7 +99,7 @@ msgid ""
 "`PyType_GenericAlloc` is preferred over a custom function that simply calls "
 "this macro."
 msgstr ""
-"Ketika mengisi slot tipe:c:member:`~PyTypeObject.tp_alloc` , :c:func:"
+"Ketika mengisi slot tipe :c:member:`~PyTypeObject.tp_alloc` , :c:func:"
 "`PyType_GenericAlloc` lebih direkomendasikan daripada fungsi kustom yang "
 "hanya memanggil makro ini."
 
@@ -125,7 +125,7 @@ msgid ""
 "(usually called via the object's :c:member:`~PyTypeObject.tp_free` slot)."
 msgstr ""
 "Memori yang dialokasikan oleh makro ini harus dibebaskan dengan :c:func:"
-"`PyObject_Free` (biasanya dipanggil melalui slot objek:c:member:"
+"`PyObject_Free` (biasanya dipanggil melalui slot objek :c:member:"
 "`~PyTypeObject.tp_free` )."
 
 msgid ""
@@ -220,9 +220,9 @@ msgid ""
 "using the :c:macro:`Py_None` macro, which evaluates to a pointer to this "
 "object."
 msgstr ""
-"Objek yang terlihat di Python sebagai ``None``.  Ini hanya boleh diakses "
-"menggunakan makro :c:macro:`Py_None`, yang dievaluasi menjadi penunjuk ke "
-"objek ini."
+"Object yang terlihat di Python sebagai ``None``. Ini seharusnya hanya dapat "
+"diakses menggunakan makro :c:macro:`Py_None`, yang mengevaluasi ke sebuah "
+"pointer ke object ini."
 
 msgid ":ref:`moduleobjects`"
 msgstr ":ref:`moduleobjects`"

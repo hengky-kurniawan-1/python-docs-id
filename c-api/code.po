@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:33+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-10-01 14:15+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -254,43 +255,43 @@ msgid "Meaning"
 msgstr "Artinya"
 
 msgid ":py:data:`inspect.CO_OPTIMIZED`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_OPTIMIZED`"
 
 msgid ":py:data:`inspect.CO_NEWLOCALS`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_NEWLOCALS`"
 
 msgid ":py:data:`inspect.CO_VARARGS`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_VARARGS`"
 
 msgid ":py:data:`inspect.CO_VARKEYWORDS`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_VARKEYWORDS`"
 
 msgid ":py:data:`inspect.CO_NESTED`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_NESTED`"
 
 msgid ":py:data:`inspect.CO_GENERATOR`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_GENERATOR`"
 
 msgid ":py:data:`inspect.CO_COROUTINE`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_COROUTINE`"
 
 msgid ":py:data:`inspect.CO_ITERABLE_COROUTINE`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_ITERABLE_COROUTINE`"
 
 msgid ":py:data:`inspect.CO_ASYNC_GENERATOR`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_ASYNC_GENERATOR`"
 
 msgid ":py:data:`inspect.CO_HAS_DOCSTRING`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_HAS_DOCSTRING`"
 
 msgid ":py:data:`inspect.CO_METHOD`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_METHOD`"
 
 msgid "no effect (:py:data:`__future__.division`)"
-msgstr ""
+msgstr "Tanpa efek (:py:data:`__future__.division`)"
 
 msgid "no effect (:py:data:`__future__.absolute_import`)"
-msgstr ""
+msgstr "Tanpa efek (:py:data:`__future__.absolute_import`)"
 
 msgid "no effect (:py:data:`__future__.with_statement`)"
 msgstr ""
@@ -305,7 +306,7 @@ msgid "no effect (:py:data:`__future__.generator_stop`)"
 msgstr ""
 
 msgid ":py:data:`__future__.annotations`"
-msgstr ""
+msgstr ":py:data:`__future__.annotations`"
 
 msgid "Extra information"
 msgstr ""
@@ -369,7 +370,7 @@ msgid ""
 msgstr ""
 
 msgid "as ``_PyCode_SetExtra``"
-msgstr ""
+msgstr "sebagai ``_PyCode_SetExtra``"
 
 msgid ""
 "Renamed to ``PyUnstable_Code_SetExtra``. The old private name is deprecated, "
@@ -383,10 +384,10 @@ msgid "code"
 msgstr "code"
 
 msgid "code object"
-msgstr ""
+msgstr "objek kode"
 
 msgid "PyCode_New (C function)"
-msgstr ""
+msgstr "PyCode_New (fungsi C)"
 
 msgid "PyCode_NewWithPosOnlyArgs (C function)"
 msgstr ""

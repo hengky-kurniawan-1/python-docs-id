@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-19 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:35+0000\n"
+"POT-Creation-Date: 2025-10-11 14:13+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -45,20 +49,75 @@ msgstr ""
 msgid "Support for threads."
 msgstr ""
 
+msgid "To build optional modules:"
+msgstr ""
+
+msgid "`libbz2 <https://sourceware.org/bzip2/>`_ for the :mod:`bz2` module."
+msgstr ""
+
 msgid ""
-"OpenSSL 1.1.1 is the minimum version and OpenSSL 3.0.16 is the recommended "
-"minimum version for the :mod:`ssl` and :mod:`hashlib` extension modules."
+"`libb2 <https://github.com/BLAKE2/libb2>`_ (:ref:`BLAKE2 <hashlib-blake2>`), "
+"used by :mod:`hashlib` module."
 msgstr ""
 
-msgid "SQLite 3.15.2 for the :mod:`sqlite3` extension module."
+msgid ""
+"`libffi <https://sourceware.org/libffi/>`_ 3.3.0 is the recommended minimum "
+"version for the :mod:`ctypes` module."
 msgstr ""
 
-msgid "Tcl/Tk 8.5.12 for the :mod:`tkinter` module."
+msgid "``liblzma``, for the :mod:`lzma` module."
 msgstr ""
 
 msgid ""
 "`libmpdec <https://www.bytereef.org/mpdecimal/doc/libmpdec/>`_ 2.5.0 for "
 "the :mod:`decimal` module."
+msgstr ""
+
+msgid "``libncurses`` or ``libncursesw``, for the :mod:`curses` module."
+msgstr ""
+
+msgid "``libpanel`` or ``libpanelw``, for the :mod:`curses.panel` module."
+msgstr ""
+
+msgid ""
+"`libreadline <https://tiswww.case.edu/php/chet/readline/rltop.html>`_ or "
+"`libedit <https://www.thrysoee.dk/editline/>`_ for the :mod:`readline` "
+"module."
+msgstr ""
+
+msgid ""
+"`libuuid <https://linux.die.net/man/3/libuuid>`_, for the :mod:`uuid` module."
+msgstr ""
+
+msgid ""
+"`OpenSSL <https://www.openssl.org/>`_ 1.1.1 is the minimum version and "
+"OpenSSL 3.0.18 is the recommended minimum version for the :mod:`ssl` and :"
+"mod:`hashlib` extension modules."
+msgstr ""
+
+msgid ""
+"`SQLite <https://sqlite.org/>`_ 3.15.2 for the :mod:`sqlite3` extension "
+"module."
+msgstr ""
+
+msgid ""
+"`Tcl/Tk <https://www.tcl-lang.org/>`_ 8.5.12 for the :mod:`tkinter` module."
+msgstr ""
+
+msgid ""
+"`zlib <https://www.zlib.net>`_ 1.1.4 is the reccomended minimum version for "
+"the :mod:`zlib` module."
+msgstr ""
+
+msgid ""
+"`zstd <https://facebook.github.io/zstd/>`_ 1.4.5 is the minimum version for "
+"the :mod:`compression.zstd` module."
+msgstr ""
+
+msgid ""
+"For a full list of dependencies required to build all modules and how to "
+"install them, see the `devguide <https://devguide.python.org/getting-started/"
+"setup-building/#install-dependencies>`_."
 msgstr ""
 
 msgid ""
@@ -992,7 +1051,7 @@ msgstr ""
 
 msgid ""
 "A copy of the ``mpdecimal`` library sources will no longer be distributed "
-"with Python 3.15."
+"with Python 3.16."
 msgstr ""
 
 msgid ":option:`LIBMPDEC_CFLAGS` and :option:`LIBMPDEC_LIBS`."
@@ -1701,7 +1760,7 @@ msgid "Linker flags used for building the interpreter object files."
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Catatan kaki"
 
 msgid ""
 "``git clean -fdx`` is an even more extreme way to \"clean\" your checkout. "

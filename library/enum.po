@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Transifex Bot <>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 14:18+0000\n"
-"PO-Revision-Date: 2025-08-02 17:34+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-10-03 14:13+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
+"Last-Translator: Transifex Bot <>, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -26,14 +27,12 @@ msgid ":mod:`!enum` --- Support for enumerations"
 msgstr ""
 
 msgid "**Source code:** :source:`Lib/enum.py`"
-msgstr "**kod źródłowy:** :source:`Lib/enum.py`"
+msgstr ""
 
 msgid ""
 "This page contains the API reference information. For tutorial information "
 "and discussion of more advanced topics, see"
 msgstr ""
-"Ця сторінка містить довідкову інформацію про API. Інформацію про підручники "
-"та обговорення більш складних тем див"
 
 msgid ":ref:`Basic Tutorial <enum-basic-tutorial>`"
 msgstr ""
@@ -86,7 +85,7 @@ msgid ""
 msgstr ""
 
 msgid "Nomenclature"
-msgstr "Номенклатура"
+msgstr ""
 
 msgid "The class :class:`!Color` is an *enumeration* (or *enum*)"
 msgstr ""
@@ -139,8 +138,6 @@ msgid ""
 "Base class for creating enumerated constants that can be combined using the "
 "bitwise operations without losing their :class:`Flag` membership."
 msgstr ""
-"Базовий клас для створення перерахованих констант, які можна комбінувати за "
-"допомогою порозрядних операцій, не втрачаючи приналежності до :class:`Flag`."
 
 msgid ":class:`IntFlag`"
 msgstr ""
@@ -207,8 +204,6 @@ msgstr ""
 msgid ""
 "Enum class decorator that ensures only one name is bound to any one value."
 msgstr ""
-"Декоратор класу Enum, який забезпечує прив’язку лише одного імені до будь-"
-"якого значення."
 
 msgid ":func:`verify`"
 msgstr ""
@@ -246,7 +241,7 @@ msgid "Return a list of all power-of-two integers contained in a flag."
 msgstr ""
 
 msgid "``Flag``, ``IntFlag``, ``auto``"
-msgstr "``Flag``, ``IntFlag``, ``auto``"
+msgstr ""
 
 msgid ""
 "``StrEnum``, ``EnumCheck``, ``ReprEnum``, ``FlagBoundary``, ``property``, "
@@ -270,6 +265,11 @@ msgid ""
 "`!__str__`, :meth:`!__format__`, and :meth:`!__reduce__` methods on the "
 "final *enum*, as well as creating the enum members, properly handling "
 "duplicates, providing iteration over the enum class, etc."
+msgstr ""
+
+msgid ""
+"Before 3.11 ``EnumType`` was called ``EnumMeta``, which is still available "
+"as an alias."
 msgstr ""
 
 msgid "This method is called in two different ways:"
@@ -299,7 +299,7 @@ msgid "The name of the new Enum to create."
 msgstr ""
 
 msgid "names"
-msgstr "імена"
+msgstr ""
 
 msgid "The names/values of the members for the new Enum."
 msgstr ""
@@ -311,7 +311,7 @@ msgid "The name of the module the new Enum is created in."
 msgstr ""
 
 msgid "qualname"
-msgstr "qualname"
+msgstr ""
 
 msgid "The actual location in the module where this Enum can be found."
 msgstr ""
@@ -323,7 +323,7 @@ msgid "A mix-in type for the new Enum."
 msgstr ""
 
 msgid "start"
-msgstr "початок"
+msgstr ""
 
 msgid "The first integer value for the Enum (used by :class:`auto`)."
 msgstr ""
@@ -400,21 +400,6 @@ msgid ""
 "[<Color.BLUE: 3>, <Color.GREEN: 2>, <Color.RED: 1>]"
 msgstr ""
 
-msgid ""
-"Adds a new name as an alias to an existing member.  Raises a :exc:"
-"`NameError` if the name is already assigned to a different member."
-msgstr ""
-
-msgid ""
-"Adds a new value as an alias to an existing member.  Raises a :exc:"
-"`ValueError` if the value is already linked with a different member."
-msgstr ""
-
-msgid ""
-"Before 3.11 ``EnumType`` was called ``EnumMeta``, which is still available "
-"as an alias."
-msgstr ""
-
 msgid "*Enum* is the base class for all *enum* enumerations."
 msgstr ""
 
@@ -438,7 +423,7 @@ msgid "Value of the member, can be set in :meth:`~Enum.__new__`."
 msgstr ""
 
 msgid "Enum member values"
-msgstr "Значення члена Enum"
+msgstr ""
 
 msgid ""
 "Member values can be anything: :class:`int`, :class:`str`, etc.  If the "
@@ -478,6 +463,7 @@ msgid ""
 msgstr ""
 
 msgid ""
+">>> from enum import Enum\n"
 ">>> from datetime import date\n"
 ">>> class Weekday(Enum):\n"
 "...     MONDAY = 1\n"
@@ -523,7 +509,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-">>> from enum import auto\n"
+">>> from enum import auto, Enum\n"
 ">>> class PowersOfThree(Enum):\n"
 "...     @staticmethod\n"
 "...     def _generate_next_value_(name, start, count, last_values):\n"
@@ -556,7 +542,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-">>> from enum import StrEnum\n"
+">>> from enum import auto, StrEnum\n"
 ">>> class Build(StrEnum):\n"
 "...     DEBUG = auto()\n"
 "...     OPTIMIZED = auto()\n"
@@ -595,6 +581,7 @@ msgid ""
 msgstr ""
 
 msgid ""
+">>> from enum import auto, Enum\n"
 ">>> class OtherStyle(Enum):\n"
 "...     ALTERNATE = auto()\n"
 "...     OTHER = auto()\n"
@@ -614,6 +601,7 @@ msgid ""
 msgstr ""
 
 msgid ""
+">>> from enum import auto, Enum\n"
 ">>> class OtherStyle(Enum):\n"
 "...     ALTERNATE = auto()\n"
 "...     OTHER = auto()\n"
@@ -632,6 +620,7 @@ msgid ""
 msgstr ""
 
 msgid ""
+">>> from enum import auto, Enum\n"
 ">>> class OtherStyle(Enum):\n"
 "...     ALTERNATE = auto()\n"
 "...     OTHER = auto()\n"
@@ -650,6 +639,34 @@ msgid ""
 msgstr ""
 
 msgid "Added :ref:`enum-dataclass-support`"
+msgstr ""
+
+msgid "Adds a new name as an alias to an existing member::"
+msgstr ""
+
+msgid ""
+">>> Color.RED._add_alias_(\"ERROR\")\n"
+">>> Color.ERROR\n"
+"<Color.RED: 1>"
+msgstr ""
+
+msgid ""
+"Raises a :exc:`NameError` if the name is already assigned to a different "
+"member."
+msgstr ""
+
+msgid "Adds a new value as an alias to an existing member::"
+msgstr ""
+
+msgid ""
+">>> Color.RED._add_value_alias_(42)\n"
+">>> Color(42)\n"
+"<Color.RED: 1>"
+msgstr ""
+
+msgid ""
+"Raises a :exc:`ValueError` if the value is already linked with a different "
+"member."
 msgstr ""
 
 msgid ""
@@ -1021,7 +1038,7 @@ msgid "A list of member names."
 msgstr ""
 
 msgid "Supported ``__dunder__`` names"
-msgstr "Підтримувані імена ``__dunder__``"
+msgstr ""
 
 msgid ""
 ":attr:`~EnumType.__members__` is a read-only ordered mapping of "
@@ -1035,16 +1052,6 @@ msgid ""
 msgstr ""
 
 msgid "Supported ``_sunder_`` names"
-msgstr "Підтримувані імена ``_sunder_``"
-
-msgid ""
-":meth:`~EnumType._add_alias_` -- adds a new name as an alias to an existing "
-"member."
-msgstr ""
-
-msgid ""
-":meth:`~EnumType._add_value_alias_` -- adds a new value as an alias to an "
-"existing member."
 msgstr ""
 
 msgid ":attr:`~Enum._name_` -- name of the member"
@@ -1085,6 +1092,16 @@ msgid ""
 msgstr ""
 
 msgid ""
+":meth:`~Enum._add_alias_` -- adds a new name as an alias to an existing "
+"member."
+msgstr ""
+
+msgid ""
+":meth:`~Enum._add_value_alias_` -- adds a new value as an alias to an "
+"existing member."
+msgstr ""
+
+msgid ""
 "While ``_sunder_`` names are generally reserved for the further development "
 "of the :class:`Enum` class and can not be used, some are explicitly allowed:"
 msgstr ""
@@ -1094,10 +1111,10 @@ msgid ""
 msgstr ""
 
 msgid "``_missing_``, ``_order_``, ``_generate_next_value_``"
-msgstr "``_missing_``, ``_order_``, ``_generate_next_value_``"
+msgstr ""
 
 msgid "``_ignore_``"
-msgstr "``_ignore_``"
+msgstr ""
 
 msgid "``_add_alias_``, ``_add_value_alias_``, ``_repr_*``"
 msgstr ""
