@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Hengky Kurniawan, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 14:11+0000\n"
+"POT-Creation-Date: 2025-10-17 14:15+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Hengky Kurniawan, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/python-doc/teams/5390/"
 "id/)\n"
 "MIME-Version: 1.0\n"
@@ -32,6 +33,8 @@ msgstr ""
 
 msgid "This function is a deprecated alias of :c:func:`PyImport_ImportModule`."
 msgstr ""
+"Fungsi ini adalah alias yang sudah tidak digunakan lagi dari :c:func:"
+"`PyImport_ImportModule`."
 
 msgid ""
 "This function used to fail immediately when the import lock was held by "
@@ -41,7 +44,7 @@ msgid ""
 msgstr ""
 
 msgid "Use :c:func:`PyImport_ImportModule` instead."
-msgstr ""
+msgstr "Gunakan :c:func:`PyImport_ImportModule` sebagai gantinya."
 
 msgid ""
 "Import a module.  This is best described by referring to the built-in Python "
@@ -165,6 +168,8 @@ msgid ""
 "See also :c:func:`PyImport_ExecCodeModuleEx` and :c:func:"
 "`PyImport_ExecCodeModuleWithPathnames`."
 msgstr ""
+"Lihat juga :c:func:`PyImport_ExecCodeModuleEx` dan :c:func:"
+"`PyImport_ExecCodeModuleWithPathnames`."
 
 msgid ""
 "The setting of :attr:`~module.__cached__` and :attr:`~module.__loader__` is "
@@ -177,7 +182,7 @@ msgid ""
 msgstr ""
 
 msgid "See also :c:func:`PyImport_ExecCodeModuleWithPathnames`."
-msgstr ""
+msgstr "Lihat juga :c:func:`PyImport_ExecCodeModuleWithPathnames`."
 
 msgid ""
 "Like :c:func:`PyImport_ExecCodeModuleEx`, but the :attr:`~module.__cached__` "
@@ -272,6 +277,12 @@ msgid ""
 "    bool is_package;\n"
 "};"
 msgstr ""
+"struct _frozen {\n"
+"    const char *name;\n"
+"    const unsigned char *code;\n"
+"    int size;\n"
+"    bool is_package;\n"
+"};"
 
 msgid ""
 "The new ``is_package`` field indicates whether the module is a package or "
@@ -346,7 +357,7 @@ msgid "package variable"
 msgstr ""
 
 msgid "__all__"
-msgstr ""
+msgstr "__all__"
 
 msgid "__all__ (package variable)"
 msgstr ""
@@ -358,7 +369,7 @@ msgid "built-in function"
 msgstr "fungsi bawaan"
 
 msgid "__import__"
-msgstr ""
+msgstr "__import__"
 
 msgid "compile"
 msgstr ""
